@@ -1,0 +1,126 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <base target="_blank">
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://bastitee.github.io/d3-workbench-ghp/0.10.0/d3-wb.min.js"></script>
+    <script src="https://bastitee.github.io/d3-workbench-ghp/0.10.0/d3-wb-modules.min.js"></script>
+
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        .figures {
+            /* border: 1px solid red; */
+            position: absolute;
+            height: 350px;
+        }
+
+        #logo-static {
+            top: 0px;
+            left: 0%;
+            width: 33%;
+        }
+
+        #logo-ani1 {
+            top: 0px;
+            left: 33%;
+            width: 33%;
+        }
+
+        #logo-ani2 {
+            top: 0px;
+            left: 66%;
+            width: 33%;
+        }
+
+        #logo-ani3 {
+            top: 350px;
+            left: 0%;
+            width: 33%;
+        }
+
+        #logo-xplode {
+            top: 350px;
+            left: 33%;
+            width: 33%;
+        }
+
+        #logo-rotate {
+            top: 350px;
+            left: 66%;
+            width: 33%;
+        }
+
+        #logo-smaller-diffcolor {
+            top: 700px;
+            left: 0%;
+            width: 33%;
+        }
+
+        #logo-nopad {
+            top: 700px;
+            left: 33%;
+            width: 33%;
+        }
+
+        #logo-lotsopad {
+            top: 700px;
+            left: 66%;
+            width: 33%;
+        }
+    </style>
+    <script src="logo.js"></script>
+
+</head>
+
+<body id="standalone-body">
+
+    <div id="logo-static" class="figures">
+        <svg id="svg-logo-static"></svg>
+        <script src="variants/logo-static.js" embedded="true" datapath="." svgid="svg-logo-static" divid="logo-static"></script>
+    </div>
+
+    <div id="logo-ani1" class="figures">
+        <svg id="svg-logo-ani1"></svg>
+        <script src="variants/logo-ani1.js" embedded="true" datapath="." svgid="svg-logo-ani1" divid="logo-ani1"></script>
+    </div>
+
+    <div id="logo-ani2" class="figures">
+        <svg id="svg-logo-ani2"></svg>
+        <script src="variants/logo-ani2.js" embedded="true" datapath="." svgid="svg-logo-ani2" divid="logo-ani2"></script>
+    </div>
+
+    <div id="logo-ani3" class="figures">
+        <svg id="svg-logo-ani3"></svg>
+        <script src="variants/logo-ani3.js" embedded="true" datapath="." svgid="svg-logo-ani3" divid="logo-ani3"></script>
+    </div>
+
+    <div id="logo-xplode" class="figures">
+        <svg id="svg-logo-xplode"></svg>
+        <script src="variants/logo-xplode.js" embedded="true" datapath="." svgid="svg-logo-xplode" divid="logo-xplode"></script>
+    </div>
+
+    <div id="logo-rotate" class="figures">
+        <svg id="svg-logo-rotate"></svg>
+        <script src="variants/logo-rotate.js" embedded="true" datapath="." svgid="svg-logo-rotate" divid="logo-rotate"></script>
+    </div>
+
+    <div id="logo-smaller-diffcolor" class="figures">
+        <svg id="svg-logo-smaller-diffcolor"></svg>
+        <script src="variants/logo-smaller-diffcolor.js" embedded="true" datapath="." svgid="svg-logo-smaller-diffcolor" divid="logo-smaller-diffcolor"></script>
+    </div>
+
+    <div id="logo-nopad" class="figures">
+        <svg id="svg-logo-nopad"></svg>
+        <script src="variants/logo-nopad.js" embedded="true" datapath="." svgid="svg-logo-nopad" divid="logo-nopad"></script>
+    </div>
+
+    <div id="logo-lotsopad" class="figures">
+        <svg id="svg-logo-lotsopad"></svg>
+        <script src="variants/logo-lotsopad.js" embedded="true" datapath="." svgid="svg-logo-lotsopad" divid="logo-lotsopad"></script>
+    </div>
+</body>
